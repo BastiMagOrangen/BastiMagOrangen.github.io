@@ -14,6 +14,7 @@ export const metadata: Metadata = {
   title: "Bastian Seidl – Junior Full-Stack Entwickler & QA, Wien",
   description,
   alternates: { canonical: "/" },
+  verification: { google: "zbgGB3wN_7oBDZbzNRahwfgVE33oKFsI3_fbc-MkMMI" },
   authors: [{ name: person.name, url: siteUrl }],
   openGraph: {
     type: "profile",
