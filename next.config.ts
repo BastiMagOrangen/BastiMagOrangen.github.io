@@ -1,9 +1,9 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
-  cacheComponents: true,
-  partialPrefetching: true,
+  output: "export",
+  trailingSlash: true, // emits impressum/index.html so GitHub Pages serves /impressum/
+  images: { unoptimized: true },
   turbopack: {
     rules: {
       "*.css": {
