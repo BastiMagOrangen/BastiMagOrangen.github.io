@@ -22,7 +22,7 @@ const mail = <a className="underline underline-offset-4" href={`mailto:${person.
 export default function Impressum() {
   return (
     <main className="mx-auto max-w-2xl px-5 py-16 md:py-24">
-      <Link href="/" className="font-mono text-sm text-muted-foreground hover:text-foreground">← zurück</Link>
+      <Link href="/" className="font-mono text-sm text-muted-foreground hover:text-brand">← zurück</Link>
       <h1 className="mt-6 text-4xl font-semibold tracking-tight">Impressum</h1>
       <p className="mt-2 font-mono text-xs text-muted-foreground">Angaben gemäß § 5 E-Commerce-Gesetz (ECG) und § 25 Mediengesetz</p>
 
