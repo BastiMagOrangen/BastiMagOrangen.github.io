@@ -42,3 +42,6 @@ next-env.d.ts
 
 # private source documents (contain address and phone number)
 /*.pdf
+
+# written and re-added by `next dev`; kept out of the repo
+AGENTS.md
